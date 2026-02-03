@@ -52,9 +52,22 @@ def parse_file(filename):
 
         # URL
         url = "#"
-        url_match = re.search(r'href="([^"]+)"\s+target="_blank"[^>]*>.*?University website', item)
-        if url_match:
-            url = url_match.group(1)
+        # Try finding the link with specifically "University website" text
+        # Try finding the link with specifically "University website" text
+        if "University website" in item:
+            # The URL should be the last href before the text "University website"
+            part_before = item.split("University website")[0]
+            hrefs = re.findall(r'href="([^"]+)"', part_before)
+            if hrefs:
+                url = hrefs[-1]
+        
+        # Fallback: if URL is still "#", generate a Google Search URL
+        if url == "#":
+             # Create a search query URL
+             query = f"{name} {city} official website"
+             import urllib.parse
+             encoded_query = urllib.parse.quote(query)
+             url = f"https://www.google.com/search?q={encoded_query}"
 
         # 2. Extract Fields WITH Places
         # We need to find the inner agreement blocks and extract (Field Name, Places) from each.
@@ -92,19 +105,53 @@ def parse_file(filename):
                 # Clean up
                 field_name = field_name.replace("not further defined", "").strip()
 
+                # Extract Language
+                # Look for the language chip in this agreement block
+                # The language chip usually contains "English", "Spanish", "German", "French", "Italian", "Portuguese" or "(B1)", "(B2)"
+                # Pattern: <span class="MuiChip-label ...">Language Text</span>
+                language_req = "Unknown"
+                
+                # Find all chips in this agreement block
+                chips = re.findall(r'<span class="MuiChip-label MuiChip-labelSmall css-4y436t">([^<]+)</span>', agreement)
+                
+                for chip_text in chips:
+                    # Filter out non-language chips
+                    if any(l in chip_text for l in ["English", "Spanish", "German", "French", "Italian", "Portuguese", "B1", "B2", "C1"]) and "Degree" not in chip_text and "Winter" not in chip_text and "Summer" not in chip_text:
+                        language_req = chip_text
+                        break
+
                 # Extract Places for THIS agreement
-                places = "0"
-                places_match = re.search(r'Available places</span><div><span[^>]*>(\d+)</span>\s*<span[^>]*>/\s*</span>\s*<span[^>]*>(\d+)</span>', agreement, re.DOTALL)
+                places = "?"
+                # New pattern for places based on HTML inspection:
+                # <div class="MuiStack-root css-ucy7j4"> ... 
+                # <div class="..."> <span class="MuiTypography-root MuiTypography-h4 css-1p9u8ia">3</span> <span ...>/</span> <span ...>4</span> </div>
+                
+                # We want the SECOND number (Total places), not the first (Available places which might be 0 if closed)
+                # Looking at HTML: <span class="MuiTypography-root MuiTypography-h4 css-1p9u8ia">0</span> <span ...>/</span> <span class="MuiTypography-root MuiTypography-body1 css-7ykxnw">1</span>
+                
+                places_match = re.search(r'<span class="MuiTypography-root MuiTypography-h4[^"]*">\d+</span>\s*<span[^>]*>/\s*</span>\s*<span[^>]*>(\d+)</span>', agreement)
+                
                 if places_match:
-                     places = places_match.group(2) # Total
+                     places = places_match.group(1)
                 else:
-                    simple_match = re.search(r'Available places</span>.*?<h6[^>]*>(\d+)</h6>', agreement, re.DOTALL)
+                    # Fallback: maybe just one number?
+                    simple_match = re.search(r'<span class="MuiTypography-root MuiTypography-h4[^"]*">(\d+)</span>', agreement)
                     if simple_match:
-                        places = simple_match.group(1)
+                         # If there is no slash, this might be the total. 
+                         # But wait, looking at the HTML "0 / 1", the first is available, second is total.
+                         # If we only find one number, and it matches the first pattern, it's the available count (which is wrong for "Total Slots").
+                         # Let's try to find the second span specifically.
+                         pass
+
+                    # Try a broader search for the slash pattern
+                    broad_match = re.search(r'>(\d+)\s*</span>\s*<span[^>]*>/\s*</span>\s*<span[^>]*>(\d+)\s*</span>', agreement)
+                    if broad_match:
+                        places = broad_match.group(2)
 
                 fields_data.append({
                     "name": field_name,
-                    "places": places
+                    "places": places,
+                    "language": language_req
                 })
 
         universities.append({
@@ -118,8 +165,8 @@ def parse_file(filename):
     return universities
 
 all_universities = []
-if os.path.exists('MobiTUL.html'):
-    all_universities.extend(parse_file('MobiTUL.html'))
+# if os.path.exists('MobiTUL.html'):
+#     all_universities.extend(parse_file('MobiTUL.html'))
 if os.path.exists('MobiTUL2.html'):
     all_universities.extend(parse_file('MobiTUL2.html'))
 

@@ -2,6 +2,11 @@
 const container = document.getElementById('rankings-container');
 const mapContainer = document.getElementById('map-container');
 const searchInput = document.getElementById('searchInput');
+const favoritesBtn = document.createElement('button');
+favoritesBtn.textContent = "❤️ Favorites";
+favoritesBtn.className = "filter-btn";
+favoritesBtn.id = "favoritesBtn";
+document.querySelector('.filters').appendChild(favoritesBtn);
 const filterBtns = document.querySelectorAll('.filter-btn');
 const listViewBtn = document.getElementById('listViewBtn');
 const mapViewBtn = document.getElementById('mapViewBtn');
@@ -17,6 +22,8 @@ let currentData = [...universities];
 let map = null;
 let markers = [];
 let compareList = [];
+let favorites = JSON.parse(localStorage.getItem('erasmusFavorites')) || [];
+let showFavoritesOnly = false;
 
 // Initialize Map
 function initMap() {
@@ -55,10 +62,29 @@ function updateMapMarkers(data) {
     });
 }
 
+function toggleFavorite(uniName) {
+    if (favorites.includes(uniName)) {
+        favorites = favorites.filter(n => n !== uniName);
+    } else {
+        favorites.push(uniName);
+    }
+    localStorage.setItem('erasmusFavorites', JSON.stringify(favorites));
+    renderCards(currentData); // Re-render to update hearts
+}
+
 function renderCards(data) {
     container.innerHTML = '';
 
-    data.forEach((uni, index) => {
+    let displayData = data;
+    if (showFavoritesOnly) {
+        displayData = data.filter(uni => favorites.includes(uni.name));
+        if (displayData.length === 0) {
+            container.innerHTML = '<div style="text-align:center; grid-column: 1/-1; padding: 2rem;"><h3>No favorites yet! ❤️</h3><p>Click the heart icon on any card to add it here.</p></div>';
+            return;
+        }
+    }
+
+    displayData.forEach((uni, index) => {
         const card = document.createElement('div');
         card.className = 'card';
         // card.style.cursor = 'pointer'; // Removed to allow interaction with checkbox
@@ -68,12 +94,18 @@ function renderCards(data) {
 
         // Check if selected for compare
         const isChecked = compareList.includes(uni.name) ? 'checked' : '';
+        const isFav = favorites.includes(uni.name) ? 'active' : '';
 
         card.innerHTML = `
             ${imageHtml}
             
-            <div class="compare-checkbox-container" title="Compare">
-                <input type="checkbox" class="compare-checkbox" data-name="${uni.name}" ${isChecked}>
+            <div class="card-actions-top">
+                <div class="compare-checkbox-container" title="Compare">
+                    <input type="checkbox" class="compare-checkbox" data-name="${uni.name}" ${isChecked}>
+                </div>
+                <button class="favorite-btn ${isFav}" data-name="${uni.name}" title="Add to Favorites">
+                    ❤️
+                </button>
             </div>
 
             <div class="rank-badge">#${uni.rank}</div>
@@ -82,7 +114,12 @@ function renderCards(data) {
                 <div class="card-location">
                     <span>${uni.country}</span> • <span>${uni.city}</span> • <span>📏 ${uni.distance_tul} km</span>
                 </div>
-                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                
+                <div class="weather-widget" title="Average June Temperature">
+                    ☀️ ${uni.weather_june}°C
+                </div>
+
+                <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px;">
                     <div class="grant-badge" title="Monthly Erasmus+ Grant">
                         💶 €${uni.grant} / month
                     </div>
@@ -90,11 +127,18 @@ function renderCards(data) {
                         🌐 Global Rank: ${uni.global_rank}
                     </div>
                 </div>
+                <!-- Z-index fix: ensure link is above other elements -->
                 <h2>${uni.name}</h2>
+                <style>
+                    /* .card h2 a:hover { border-color: var(--gold); } */
+                </style>
                 <div class="fields-list">
                     ${uni.fields.map(f => `
                         <div class="field-item">
-                            <span class="field-name">${f.name}</span>
+                            <div style="display:flex; flex-direction:column;">
+                                <span class="field-name">${f.name}</span>
+                                <span class="field-lang" style="font-size: 0.75em; color: #a29bfe; margin-top: 2px;">🗣️ ${f.language || 'Unknown'}</span>
+                            </div>
                             <span class="field-places">${f.places} places</span>
                         </div>
                     `).join('')}
@@ -128,7 +172,7 @@ function renderCards(data) {
                     <span class="stat-value">${uni.scores.total}</span>
                 </div>
             </div>
-        `;
+`;
 
         // Stagger animation
         card.style.opacity = '0';
@@ -140,6 +184,13 @@ function renderCards(data) {
         checkbox.addEventListener('change', (e) => {
             e.stopPropagation(); // Prevent card click
             toggleCompare(uni.name, e.target.checked);
+        });
+
+        // Event for favorite
+        const favBtn = card.querySelector('.favorite-btn');
+        favBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleFavorite(uni.name);
         });
 
         // Event for card click (optional details view? for now just log)
@@ -160,6 +211,18 @@ function getColorClass(score) {
     if (score >= 6.0) return 'med';
     return '';
 }
+
+favoritesBtn.addEventListener('click', () => {
+    showFavoritesOnly = !showFavoritesOnly;
+    favoritesBtn.classList.toggle('active');
+
+    // Switch to list view if in map view
+    if (mapViewBtn.classList.contains('active')) {
+        listViewBtn.click();
+    }
+
+    renderCards(currentData);
+});
 
 // --- Comparator Logic ---
 
@@ -203,7 +266,7 @@ function openComparisonModal() {
     compareGrid.innerHTML = `
         ${renderCompareCard(uni1, uni2)}
         ${renderCompareCard(uni2, uni1)}
-    `;
+`;
 
     compareModal.style.display = 'block';
 }
@@ -216,7 +279,7 @@ function renderCompareCard(uni, opponent) {
     const oppTotalPlaces = opponent.fields.reduce((acc, f) => acc + parseInt(f.places), 0);
 
     return `
-        <div class="compare-card">
+    < div class="compare-card" >
             <h3>${uni.name}</h3>
             <p style="color: #bbb; margin-bottom: 1rem;">${uni.city}, ${uni.country}</p>
             
@@ -248,7 +311,7 @@ function renderCompareCard(uni, opponent) {
                 <span class="compare-label">Cost</span>
                 <span class="compare-value ${winClass(uni.scores.cost, opponent.scores.cost)}">${uni.scores.cost}</span>
             </div>
-        </div>
+        </div >
     `;
 }
 

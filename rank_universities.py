@@ -194,6 +194,34 @@ def rank_universities(input_file, output_file):
         "Unknown": [51.7525, 19.4532] # Default to Lodz
     }
 
+    # Average June Weather (Daytime Highs in Celsius)
+    city_weather_june = {
+        "Lisbon": 26, "Porto": 23, "Faro": 28, "Coimbra": 25, "Braga": 24, "Aveiro": 22,
+        "Madrid": 29, "Barcelona": 25, "Valencia": 27, "Seville": 33, "Granada": 30, "Malaga": 28,
+        "Paris": 23, "Lyon": 25, "Bordeaux": 25, "Toulouse": 26, "Nice": 24, "Lille": 21,
+        "Berlin": 22, "Munich": 21, "Hamburg": 20, "Cologne": 22, "Frankfurt": 23,
+        "Rome": 28, "Milan": 26, "Naples": 28, "Turin": 25, "Bologna": 27, "Florence": 29,
+        "Vienna": 24, "Graz": 23, "Innsbruck": 22,
+        "Prague": 22, "Brno": 22, "Ostrava": 21,
+        "Budapest": 25, "Debrecen": 24,
+        "Warsaw": 22, "Krakow": 23, "Lodz": 22, "Wroclaw": 22, "Gdansk": 19,
+        "Amsterdam": 19, "Rotterdam": 19, "Utrecht": 20, "Groningen": 18, "Eindhoven": 20,
+        "Brussels": 20, "Antwerp": 20, "Ghent": 20, "Leuven": 20,
+        "Stockholm": 19, "Gothenburg": 18, "Malmo": 18, "Uppsala": 18,
+        "Oslo": 19, "Bergen": 16, "Trondheim": 15,
+        "Helsinki": 18, "Turku": 17, "Tampere": 18,
+        "Copenhagen": 19, "Aarhus": 18,
+        "Dublin": 17, "Cork": 16, "Galway": 16,
+        "London": 20, "Edinburgh": 17, "Manchester": 18,
+        "Athens": 30, "Thessaloniki": 28, "Heraklion": 27,
+        "Istanbul": 27, "Ankara": 26, "Izmir": 30,
+        "Zurich": 22, "Geneva": 23, "Basel": 23,
+        "Reykjavik": 12,
+        "Valletta": 27,
+        "Dewathang": 24, # Bhutan
+        "Unknown": 22
+    }
+    
     # Tech keywords for academic score
     tech_keywords = ["Technology", "Politechnica", "Polytechnique", "Technical", "Technological", "Sciences"]
 
@@ -301,6 +329,7 @@ def rank_universities(input_file, output_file):
             "coords": coords,
             "distance_tul": dist_from_tul,
             "global_rank": global_rank,
+            "weather_june": city_weather_june.get(city, city_weather_june.get("Unknown", 22)),
             "scores": {
                 "total": round(total_score, 1),
                 "academic": round(acad_score, 1),

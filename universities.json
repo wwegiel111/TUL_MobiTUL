@@ -1,1457 +1,5 @@
 [
   {
-    "name": "Public University of Navarre",
-    "country": "Spain",
-    "city": "Pamplona",
-    "url": "#",
-    "fields": [
-      {
-        "name": "Business and administration",
-        "places": "4"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Centrale Lille Institut",
-    "country": "France",
-    "city": "Villeneuve dAscq",
-    "url": "#",
-    "fields": [
-      {
-        "name": "Natural sciences, mathematics and statistics",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "University of Calabria",
-    "country": "Italy",
-    "city": "Arcavacata di Rende",
-    "url": "#",
-    "fields": [
-      {
-        "name": "Mathematics",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Kauno Technologijos Universitetas",
-    "country": "Lithuania",
-    "city": "Kaunas",
-    "url": "https://ktu.lt/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Nottingham Trent University",
-    "country": "United Kingdom",
-    "city": "Nottingham",
-    "url": "#",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universidad De Vigo",
-    "country": "Spain",
-    "city": "Vigo Pontevedra",
-    "url": "https://uvigo.es/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      },
-      {
-        "name": "Electricity and energy",
-        "places": "1"
-      },
-      {
-        "name": "Electronics and automation",
-        "places": "1"
-      }
-    ]
-  },
-  {
-    "name": "Fachhochschule Kiel",
-    "country": "Germany",
-    "city": "Kiel",
-    "url": "https://fh-kiel.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      },
-      {
-        "name": "Business and administration",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universidad Europea De Madrid Sa",
-    "country": "Spain",
-    "city": "Madrid",
-    "url": "https://madrid.universidadeuropea.es/",
-    "fields": [
-      {
-        "name": "Mechanics and metal trades",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Institut National Des Sciences Appliquees, Strasbourg",
-    "country": "France",
-    "city": "Strasbourg",
-    "url": "https://insa-strasbourg.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      },
-      {
-        "name": "Architecture and town planning",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Institut National Des Sciences Appliquees De Rouen",
-    "country": "France",
-    "city": "Rouen",
-    "url": "https://insa-rouen.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Fachhochschule Vorarlberg Gmbh",
-    "country": "Austria",
-    "city": "Dornbirn",
-    "url": "https://fhv.at/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universite Catholique De Lille (F\u00e9d\u00e9ration Universitaire Et Pluridisciplinaire De Lille)",
-    "country": "France",
-    "city": "Lille",
-    "url": "https://univ-catholille.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "Universiteit Gent",
-    "country": "Belgium",
-    "city": "Gent",
-    "url": "https://ugent.be/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades not elsewhere classified",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universiteit Gent",
-    "country": "Belgium",
-    "city": "Gent",
-    "url": "https://ugent.be/",
-    "fields": [
-      {
-        "name": "Chemistry",
-        "places": "3"
-      },
-      {
-        "name": "Mathematics",
-        "places": "2"
-      },
-      {
-        "name": "Biological and related sciences",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Tallinna Tehnika\u00fclikool",
-    "country": "Estonia",
-    "city": "Tallinn",
-    "url": "https://taltech.ee/",
-    "fields": [
-      {
-        "name": "Business and administration",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Univerzitet U Novom Sadu",
-    "country": "Serbia",
-    "city": "Novi Sad",
-    "url": "https://uns.ac.rs/",
-    "fields": [
-      {
-        "name": "Electronics and automation",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Varna Free University",
-    "country": "Bulgaria",
-    "city": "Varna",
-    "url": "https://vfu.bg/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      },
-      {
-        "name": "Business and administration",
-        "places": "3"
-      },
-      {
-        "name": "Architecture and town planning",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Stiftung Fachhochschule Osnabruck",
-    "country": "Germany",
-    "city": "Osnabr\u00fcck",
-    "url": "https://hs-osnabrueck.de/",
-    "fields": [
-      {
-        "name": "Engineering, manufacturing and construction",
-        "places": "3"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      },
-      {
-        "name": "Arts",
-        "places": "3"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Turun Ammattikorkeakoulu Oy",
-    "country": "Finland",
-    "city": "Turku",
-    "url": "https://turkuamk.fi/",
-    "fields": [
-      {
-        "name": "Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction",
-        "places": "2"
-      },
-      {
-        "name": "Building and civil engineering",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "4"
-      },
-      {
-        "name": "Biochemistry",
-        "places": "2"
-      },
-      {
-        "name": "Mechanics and metal trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Kauno Technologijos Universitetas",
-    "country": "Lithuania",
-    "city": "Kaunas",
-    "url": "https://ktu.lt/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Haskolinn I Reykjavik Ehf",
-    "country": "Iceland",
-    "city": "Reykjav\u00edk",
-    "url": "https://ru.is/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Fachhochschule St. Polten Gmbh",
-    "country": "Austria",
-    "city": "Sankt P\u00f6lten",
-    "url": "https://fhstp.ac.at/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Nantes Universite",
-    "country": "France",
-    "city": "Nantes",
-    "url": "https://univ-nantes.fr/",
-    "fields": [
-      {
-        "name": "Mathematics",
-        "places": "2"
-      },
-      {
-        "name": "Computer use",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Technische Hochschule Deggendorf",
-    "country": "Germany",
-    "city": "Deggendorf",
-    "url": "https://th-deg.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "8"
-      }
-    ]
-  },
-  {
-    "name": "Universite De Lorraine",
-    "country": "France",
-    "city": "Nancy",
-    "url": "https://univ-lorraine.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universite De Lorraine",
-    "country": "France",
-    "city": "Nancy",
-    "url": "https://univ-lorraine.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "\u00dcsk\u00fcdar University",
-    "country": "Turkey",
-    "city": "Istanbul",
-    "url": "https://uskudar.edu.tr/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universidad Rey Juan Carlos",
-    "country": "Spain",
-    "city": "Madrid",
-    "url": "https://urjc.es/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universidad Rey Juan Carlos",
-    "country": "Spain",
-    "city": "Madrid",
-    "url": "https://urjc.es/",
-    "fields": [
-      {
-        "name": "Computer use",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universidad Rey Juan Carlos",
-    "country": "Spain",
-    "city": "Madrid",
-    "url": "https://urjc.es/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universidad De Cadiz",
-    "country": "Spain",
-    "city": "C\u00e1diz",
-    "url": "https://uca.es/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universita Degli Studi Di Catania",
-    "country": "Italy",
-    "city": "Catania",
-    "url": "https://unict.it/",
-    "fields": [
-      {
-        "name": "Mathematics and statistics",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Hochschule Merseburg",
-    "country": "Germany",
-    "city": "Merseburg",
-    "url": "https://hs-merseburg.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades not elsewhere classified",
-        "places": "1"
-      }
-    ]
-  },
-  {
-    "name": "Vsb - Technical University Of Ostrava",
-    "country": "Czechia",
-    "city": "Ostrava",
-    "url": "https://vsb.cz/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      },
-      {
-        "name": "Mechanics and metal trades",
-        "places": "1"
-      }
-    ]
-  },
-  {
-    "name": "Technicka Univerzita V Liberci",
-    "country": "Czechia",
-    "city": "Liberec",
-    "url": "https://tul.cz/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "6"
-      },
-      {
-        "name": "Textiles (clothes, footwear and leather)",
-        "places": "6"
-      },
-      {
-        "name": "Fashion, interior and industrial design",
-        "places": "6"
-      }
-    ]
-  },
-  {
-    "name": "Kauno Technologijos Universitetas",
-    "country": "Lithuania",
-    "city": "Kaunas",
-    "url": "https://ktu.lt/",
-    "fields": [
-      {
-        "name": "Physical sciences",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Hochschule Fur Technik Und Wirtschaft Des Saarlandes",
-    "country": "Germany",
-    "city": "Saarbr\u00fccken",
-    "url": "https://htwsaar.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "8"
-      },
-      {
-        "name": "Business and administration",
-        "places": "8"
-      },
-      {
-        "name": "Engineering and engineering trades not elsewhere classified",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Tallinn University",
-    "country": "Estonia",
-    "city": "Tallinn",
-    "url": "https://tlu.ee/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Oslomet - Storbyuniversitetet",
-    "country": "Norway",
-    "city": "Oslo",
-    "url": "https://oslomet.no/",
-    "fields": [
-      {
-        "name": "Engineering, manufacturing and construction",
-        "places": "3"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universidad De Leon",
-    "country": "Spain",
-    "city": "Le\u00f3n",
-    "url": "https://unileon.es/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "6"
-      }
-    ]
-  },
-  {
-    "name": "University Of Cukurova",
-    "country": "Turkey",
-    "city": "Adana",
-    "url": "https://cu.edu.tr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "6"
-      }
-    ]
-  },
-  {
-    "name": "Novia University of Applied Sciences",
-    "country": "Finland",
-    "city": "Turku",
-    "url": "https://novia.fi/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Universita Degli Studi Di Cagliari",
-    "country": "Italy",
-    "city": "Cagliari",
-    "url": "https://unica.it/",
-    "fields": [
-      {
-        "name": "Electricity and energy",
-        "places": "3"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      },
-      {
-        "name": "Electronics and automation",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Universitetet I Sorost-Norge",
-    "country": "Norway",
-    "city": "Kongsberg",
-    "url": "https://usn.no/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universite De Lille",
-    "country": "France",
-    "city": "Lille",
-    "url": "https://univ-lille.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "Universite De Lille",
-    "country": "France",
-    "city": "Lille",
-    "url": "https://univ-lille.fr/",
-    "fields": [
-      {
-        "name": "Mathematics",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universita Di Pisa",
-    "country": "Italy",
-    "city": "Pisa",
-    "url": "https://unipi.it/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Institut National Des Sciences Appliquees De Toulouse",
-    "country": "France",
-    "city": "Toulouse",
-    "url": "https://insa-toulouse.fr/",
-    "fields": [
-      {
-        "name": "Electronics and automation",
-        "places": "2"
-      },
-      {
-        "name": "Mechanics and metal trades",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universidad De Valladolid",
-    "country": "Spain",
-    "city": "Valladolid",
-    "url": "https://uva.es/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universidad De Leon",
-    "country": "Spain",
-    "city": "Le\u00f3n",
-    "url": "https://unileon.es/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Instituto Politecnico Do Cavado E Do Ave",
-    "country": "Portugal",
-    "city": "Barcelos",
-    "url": "https://ipca.pt/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Instituto Politecnico De Santarem",
-    "country": "Portugal",
-    "city": "Santar\u00e9m",
-    "url": "https://ipsantarem.pt/",
-    "fields": [
-      {
-        "name": "Business and administration",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Aydin Adnan Menderes Universitesi",
-    "country": "Turkey",
-    "city": "Ayd\u0131n",
-    "url": "https://adu.edu.tr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Isla-Santarem, Educa\u00e7\u00e3o E Cultura Unipessoal, Lda.",
-    "country": "Portugal",
-    "city": "Santar\u00e9m",
-    "url": "https://islasantarem.pt/",
-    "fields": [
-      {
-        "name": "Business and administration",
-        "places": "3"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Linkopings Universitet",
-    "country": "Sweden",
-    "city": "Link\u00f6ping",
-    "url": "https://liu.se/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Univerzitet U Nisu",
-    "country": "Serbia",
-    "city": "Ni\u0161",
-    "url": "https://ni.ac.rs/",
-    "fields": [
-      {
-        "name": "Electronics and automation",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Carl Von Ossietzky Universitaet Oldenburg",
-    "country": "Germany",
-    "city": "Oldenburg",
-    "url": "https://uol.de/",
-    "fields": [
-      {
-        "name": "Computer use",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Centralesupelec",
-    "country": "France",
-    "city": "Gif-sur-Yvette",
-    "url": "https://centralesupelec.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Suleyman Demirel University",
-    "country": "Turkey",
-    "city": "Isparta",
-    "url": "https://sdu.edu.tr/",
-    "fields": [
-      {
-        "name": "Biological and related sciences",
-        "places": "4"
-      },
-      {
-        "name": "Textiles (clothes, footwear and leather)",
-        "places": "1"
-      }
-    ]
-  },
-  {
-    "name": "Istanbul Kultur University",
-    "country": "Turkey",
-    "city": "Istanbul",
-    "url": "https://iku.edu.tr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Hogskolan Vast",
-    "country": "Sweden",
-    "city": "Trollh\u00e4ttan",
-    "url": "https://hv.se/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "8"
-      }
-    ]
-  },
-  {
-    "name": "Harran Universitesi",
-    "country": "Turkey",
-    "city": "\u015eanl\u0131urfa",
-    "url": "https://harran.edu.tr/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "University St Kliment Ohridski Bitola",
-    "country": "North Macedonia",
-    "city": "Bitola",
-    "url": "https://uklo.edu.mk/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Duale Hochschule Baden-W\u00fcrttemberg Karlsruhe",
-    "country": "Germany",
-    "city": "Karlsruhe",
-    "url": "https://dhbw-karlsruhe.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Technische Hochschule Wildau",
-    "country": "Germany",
-    "city": "Wildau",
-    "url": "https://th-wildau.de/",
-    "fields": [
-      {
-        "name": "Biological and related sciences",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Universidade De Evora",
-    "country": "Portugal",
-    "city": "\u00c9vora",
-    "url": "https://uevora.pt/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      },
-      {
-        "name": "Electronics and automation",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Dokuz Eylul Universitesi",
-    "country": "Turkey",
-    "city": "\u0130zmir",
-    "url": "https://deu.edu.tr/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Istanbul Nisantasi University",
-    "country": "Turkey",
-    "city": "Istanbul",
-    "url": "https://nisantasi.edu.tr/",
-    "fields": [
-      {
-        "name": "Fashion, interior and industrial design",
-        "places": "4"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      },
-      {
-        "name": "Architecture and town planning",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Ankara Science University",
-    "country": "Turkey",
-    "city": "Ankara",
-    "url": "https://ankarabilim.edu.tr/",
-    "fields": [
-      {
-        "name": "Fashion, interior and industrial design",
-        "places": "2"
-      },
-      {
-        "name": "Electronics and automation",
-        "places": "2"
-      },
-      {
-        "name": "Computer use",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Dundalk Institute Of Technology",
-    "country": "Ireland",
-    "city": "Dundalk",
-    "url": "https://dkit.ie/",
-    "fields": [
-      {
-        "name": "Mathematics and statistics",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Baskent Universitesi Vakfi",
-    "country": "Turkey",
-    "city": "Ankara",
-    "url": "https://baskent.edu.tr/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Technische Hochschule Brandenburg",
-    "country": "Germany",
-    "city": "Brandenburg",
-    "url": "https://th-brandenburg.de/",
-    "fields": [
-      {
-        "name": "Business and administration",
-        "places": "4"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "4"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Association D'Enseignement Technique Superieur Esaip",
-    "country": "France",
-    "city": "Saint-Barth\u00e9lemy-d\u2019Anjou",
-    "url": "https://esaip.org/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "Liepajas Universitate",
-    "country": "Latvia",
-    "city": "Liep\u0101ja",
-    "url": "https://liepu.lv/",
-    "fields": [
-      {
-        "name": "Environment",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Norges Teknisk-Naturvitenskapelige Universitet Ntnu",
-    "country": "Norway",
-    "city": "Trondheim",
-    "url": "https://ntnu.no/",
-    "fields": [
-      {
-        "name": "Building and civil engineering",
-        "places": "3"
-      },
-      {
-        "name": "Electronics and automation",
-        "places": "4"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "4"
-      },
-      {
-        "name": "Chemical engineering and processes",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Universite De Tours",
-    "country": "France",
-    "city": "Tours",
-    "url": "https://univ-tours.fr/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "6"
-      }
-    ]
-  },
-  {
-    "name": "Technical University Of Sofia",
-    "country": "Bulgaria",
-    "city": "Sofia",
-    "url": "https://tu-sofia.bg/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "3"
-      },
-      {
-        "name": "Manufacturing and processing not elsewhere classified",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Sveuciliste Josipa Jurja Strossmayera U Osijeku",
-    "country": "Croatia",
-    "city": "Osijek",
-    "url": "https://unios.hr/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Szechenyi Istvan Egyetem",
-    "country": "Hungary",
-    "city": "Gy\u0151r",
-    "url": "https://sze.hu/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "8"
-      }
-    ]
-  },
-  {
-    "name": "Universitatea Transilvania Din Brasov",
-    "country": "Romania",
-    "city": "Bra\u015fov",
-    "url": "https://unitbv.ro/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
-      },
-      {
-        "name": "Mathematics and statistics",
-        "places": "3"
-      }
-    ]
-  },
-  {
-    "name": "Fachhochschule Erfurt",
-    "country": "Germany",
-    "city": "Erfurt",
-    "url": "https://fh-erfurt.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Middle East Technical University",
-    "country": "Turkey",
-    "city": "Ankara",
-    "url": "https://metu.edu.tr/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Eskisehir Osmangazi Universitesi",
-    "country": "Turkey",
-    "city": "Eski\u015fehir",
-    "url": "https://ogu.edu.tr/",
-    "fields": [
-      {
-        "name": "Fashion, interior and industrial design",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Instituto Politecnico Do Porto",
-    "country": "Portugal",
-    "city": "Porto",
-    "url": "https://ipp.pt/",
-    "fields": [
-      {
-        "name": "Electronics and automation",
-        "places": "2"
-      },
-      {
-        "name": "Engineering, manufacturing and construction",
-        "places": "2"
-      },
-      {
-        "name": "Mechanics and metal trades",
-        "places": "4"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      },
-      {
-        "name": "Medical diagnostic and treatment technology",
-        "places": "2"
-      },
-      {
-        "name": "Chemical engineering and processes",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Harran Universitesi",
-    "country": "Turkey",
-    "city": "\u015eanl\u0131urfa",
-    "url": "https://harran.edu.tr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "Univerzita Jana Evangelisty Purkyne V Usti Nad Labem",
-    "country": "Czechia",
-    "city": "\u00dast\u00ed nad Labem",
-    "url": "https://ujep.cz/",
-    "fields": [
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Universite D'Evry-Val D'Essone",
-    "country": "France",
-    "city": "\u00c9vry",
-    "url": "https://univ-evry.fr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "Technische Hochschule Ulm",
-    "country": "Germany",
-    "city": "Ulm",
-    "url": "https://thu.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Ecam Lasalle",
-    "country": "France",
-    "city": "Lyon",
-    "url": "https://ecam.fr/",
-    "fields": [
-      {
-        "name": "Engineering, manufacturing and construction",
-        "places": "10"
-      }
-    ]
-  },
-  {
-    "name": "Icam Site de Strasbourg-Europe",
-    "country": "France",
-    "city": "Schiltigheim",
-    "url": "https://www.icam-strasbourg.eu/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "University Of Cyprus",
-    "country": "Cyprus",
-    "city": "Nicosia",
-    "url": "https://www.ucy.ac.cy/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Technische Hochschule Bingen",
-    "country": "Germany",
-    "city": "Bingen am Rhein",
-    "url": "https://th-bingen.de/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Panepistimio Dytikis Attikis",
-    "country": "Greece",
-    "city": "Aigaleo",
-    "url": "https://www.uniwa.gr/",
-    "fields": [
-      {
-        "name": "Business and administration",
-        "places": "2"
-      },
-      {
-        "name": "Textiles (clothes, footwear and leather)",
-        "places": "2"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Stichting Saxion",
-    "country": "Netherlands",
-    "city": "Enschede",
-    "url": "https://saxion.nl/",
-    "fields": [
-      {
-        "name": "Engineering, manufacturing and construction",
-        "places": "10"
-      },
-      {
-        "name": "Architecture and town planning",
-        "places": "4"
-      },
-      {
-        "name": "Fashion, interior and industrial design",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Kocaeli Universitesi",
-    "country": "Turkey",
-    "city": "Kocaeli",
-    "url": "https://kocaeli.edu.tr/",
-    "fields": [
-      {
-        "name": "Electronics and automation",
-        "places": "2"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universidad De Alcala",
-    "country": "Spain",
-    "city": "Alcal\u00e1 de Henares",
-    "url": "https://uah.es/",
-    "fields": [
-      {
-        "name": "Architecture and town planning",
-        "places": "4"
-      },
-      {
-        "name": "Business and administration",
-        "places": "4"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "4"
-      }
-    ]
-  },
-  {
-    "name": "Latvijas Universitate",
-    "country": "Latvia",
-    "city": "Riga",
-    "url": "https://lu.lv/",
-    "fields": [
-      {
-        "name": "Business and administration",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universidade Nova De Lisboa",
-    "country": "Portugal",
-    "city": "Lisbon",
-    "url": "https://unl.pt/",
-    "fields": [
-      {
-        "name": "Mathematics and statistics",
-        "places": "2"
-      }
-    ]
-  },
-  {
-    "name": "Universite Lyon 1 Claude Bernard",
-    "country": "France",
-    "city": "Lyon",
-    "url": "https://univ-lyon1.fr/",
-    "fields": [
-      {
-        "name": "Biological and related sciences",
-        "places": "2"
-      },
-      {
-        "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
-      },
-      {
-        "name": "Engineering and engineering trades",
-        "places": "5"
-      }
-    ]
-  },
-  {
-    "name": "Balikesir Universitesi",
-    "country": "Turkey",
-    "city": "Bal\u0131kesir",
-    "url": "https://balikesir.edu.tr/",
-    "fields": [
-      {
-        "name": "Engineering and engineering trades",
-        "places": "2"
-      }
-    ]
-  },
-  {
     "name": "Konya Teknik Universitesi",
     "country": "Turkey",
     "city": "Konya",
@@ -1459,9 +7,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Kahramanmaras Sutcu Imam Universitesi",
@@ -1471,9 +21,11 @@
     "fields": [
       {
         "name": "Textiles (clothes, footwear and leather)",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Istanbul Arel Universitesi",
@@ -1483,9 +35,11 @@
     "fields": [
       {
         "name": "Fashion, interior and industrial design",
-        "places": "5"
+        "places": "5",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Instituto Superior Miguel Torga",
@@ -1495,9 +49,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2) / Portuguese&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Hoegskolan I Boras",
@@ -1507,21 +63,26 @@
     "fields": [
       {
         "name": "Arts",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       },
       {
         "name": "Arts",
-        "places": "1"
+        "places": "1",
+        "language": "English&nbsp;(B2)"
       },
       {
         "name": "Chemical engineering and processes",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Panepistimio Aigaiou",
@@ -1531,9 +92,11 @@
     "fields": [
       {
         "name": "Computer use",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universite De Technologie De Compiegne",
@@ -1543,9 +106,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "5"
+        "places": "5",
+        "language": "French&nbsp;(B1) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universitatea Nationala De Stiintasi Tehnologie Politehnica Bucuresti",
@@ -1555,9 +120,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Artesis Plantijn Hogeschool Antwerpen",
@@ -1567,13 +134,16 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "4"
+        "places": "4",
+        "language": "English&nbsp;(B1)"
       },
       {
         "name": "Wholesale and retail sales",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Institut Polytechnique De Grenoble",
@@ -1583,21 +153,26 @@
     "fields": [
       {
         "name": "Chemical engineering and processes",
-        "places": "1"
+        "places": "1",
+        "language": "French&nbsp;(B1)"
       },
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "1"
+        "places": "1",
+        "language": "French&nbsp;(B2)"
       },
       {
         "name": "Engineering and engineering trades not elsewhere classified",
-        "places": "1"
+        "places": "1",
+        "language": "English&nbsp;(B1)"
       },
       {
         "name": "Electronics and automation",
-        "places": "1"
+        "places": "1",
+        "language": "French&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": "https://www.grenoble-inp.fr/medias/photo/grenoble-inp-accueil_1695716684692-jpg"
   },
   {
     "name": "Universidade De Aveiro",
@@ -1607,13 +182,16 @@
     "fields": [
       {
         "name": "Physics",
-        "places": "2"
+        "places": "2",
+        "language": "Portuguese&nbsp;(B1)"
       },
       {
         "name": "Physics",
-        "places": "1"
+        "places": "1",
+        "language": "Portuguese&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": "https://static.ua.pt/images/ua/sm-campus.png"
   },
   {
     "name": "Stichting Hanzehogeschool Groningen",
@@ -1623,9 +201,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "4"
+        "places": "4",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://www.hanze.nl/webfiles/1768391431788/static/default/svg/logo.svg"
   },
   {
     "name": "Technische Universitat Hamburg",
@@ -1635,9 +215,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "4"
+        "places": "4",
+        "language": "German&nbsp;(B1) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://www.tuhh.de/t3resources/tuhh/_processed_/5/8/csm_tuhh_gebaeude_a_4cf38f405b.jpg"
   },
   {
     "name": "Ostbayerische Technische Hochschuleamberg-Weiden",
@@ -1647,17 +229,21 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "German&nbsp;(B1)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "German&nbsp;(B1)"
       },
       {
         "name": "Business and administration",
-        "places": "2"
+        "places": "2",
+        "language": "German&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Institut National Des Sciences Appliquees De Lyon",
@@ -1667,21 +253,26 @@
     "fields": [
       {
         "name": "Mechanics and metal trades",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       },
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       },
       {
         "name": "Biological and related sciences",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       },
       {
         "name": "Management and administration",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Institut National Des Sciences Appliquees De Lyon",
@@ -1691,13 +282,16 @@
     "fields": [
       {
         "name": "Biological and related sciences",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       },
       {
         "name": "Materials (glass, paper, plastic and wood)",
-        "places": "9"
+        "places": "9",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Institut National Des Sciences Appliquees De Lyon",
@@ -1707,9 +301,11 @@
     "fields": [
       {
         "name": "Biological and related sciences",
-        "places": "1"
+        "places": "1",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universite Cote D'Azur",
@@ -1719,9 +315,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "4"
+        "places": "4",
+        "language": "French&nbsp;(B2) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Duale Hochschule Baden-W\u00fcrttemberg Mannheim",
@@ -1731,17 +329,21 @@
     "fields": [
       {
         "name": "Business and administration",
-        "places": "2"
+        "places": "2",
+        "language": "German&nbsp;(B1) / English&nbsp;(B2)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "1"
+        "places": "1",
+        "language": "German&nbsp;(B1)"
       },
       {
         "name": "Software and applications development and analysis",
-        "places": "1"
+        "places": "1",
+        "language": "German&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": "https://www.mannheim.dhbw.de/fileadmin/_processed_/5/7/csm_Slider-duales-Studium-Slogan-Studierende-graue-Wand-DHBW-Mannheim_69101fed12.jpg"
   },
   {
     "name": "Technische Universitaet Wien",
@@ -1751,21 +353,26 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "German&nbsp;(B1) / English&nbsp;(B2)"
       },
       {
         "name": "Mechanics and metal trades",
-        "places": "4"
+        "places": "4",
+        "language": "German&nbsp;(B1) / English&nbsp;(B2)"
       },
       {
         "name": "Electronics and automation",
-        "places": "1"
+        "places": "1",
+        "language": "German&nbsp;(B1) / English&nbsp;(B2)"
       },
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "German&nbsp;(B1) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Obudai Egyetem",
@@ -1775,17 +382,21 @@
     "fields": [
       {
         "name": "Fashion, interior and industrial design",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "4"
+        "places": "4",
+        "language": "English&nbsp;(B1)"
       },
       {
         "name": "Architecture and construction",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": "https://uni-obuda.hu/wp-content/uploads/2026/01/Obudai_Egyetem_OE_LOGO_RGB_inverz.png"
   },
   {
     "name": "Universidade De Lisboa",
@@ -1795,9 +406,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "6"
+        "places": "6",
+        "language": "Portuguese&nbsp;(B1) / English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": "https://www.ulisboa.pt/sites/default/files/styles/image_base/public/images/base_image/2025-08/53-1314655f527946b3d0a40b59c15237bb.jpg?itok=wsN1qemu"
   },
   {
     "name": "Panepistimio Ioanninon",
@@ -1807,9 +420,11 @@
     "fields": [
       {
         "name": "Mathematics and statistics",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://uoi.gr/wp-content/uploads/jet-form-builder/9b9b1577d53c463b4a8f088527ab08fc/2024/09/uoi-metavatiko.jpg"
   },
   {
     "name": "Universite De Bordeaux",
@@ -1819,9 +434,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "French&nbsp;(B1) / English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": "https://www.u-bordeaux.fr/packages/ub/img/og-default.jpg"
   },
   {
     "name": "Zapadoceska Univerzita V Plzni",
@@ -1831,9 +448,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Esiee Paris",
@@ -1843,13 +462,16 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "6"
+        "places": "6",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       },
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "6"
+        "places": "6",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universite De Technologie De Belfort - Montbeliard",
@@ -1859,9 +481,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "5"
+        "places": "5",
+        "language": "French&nbsp;(B1) / English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Isik University",
@@ -1871,9 +495,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://www.isikun.edu.tr/themes/custom/isikun/img/default.jpg"
   },
   {
     "name": "Universidad Complutense De Madrid",
@@ -1883,9 +509,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "Spanish&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universite D'Orleans",
@@ -1895,9 +523,11 @@
     "fields": [
       {
         "name": "Engineering, manufacturing and construction",
-        "places": "6"
+        "places": "6",
+        "language": "French&nbsp;(B2) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universita' Degli Studi Di Bergamo",
@@ -1907,9 +537,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B1) / Italian&nbsp;(A2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Hochschule Mittweida (Fh)",
@@ -1919,9 +551,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Institut National Des Sciences Appliquees De Rennes",
@@ -1931,13 +565,16 @@
     "fields": [
       {
         "name": "Mechanics and metal trades",
-        "places": "2"
+        "places": "2",
+        "language": "French&nbsp;(B1) / English&nbsp;(B1)"
       },
       {
         "name": "Inter-disciplinary programmes and qualifications involving Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "French&nbsp;(B1) / English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Erzurum Technical University",
@@ -1947,9 +584,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Istanbul Teknik Universitesi",
@@ -1959,9 +598,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universidad Rey Juan Carlos",
@@ -1971,9 +612,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades not elsewhere classified",
-        "places": "3"
+        "places": "3",
+        "language": "Spanish&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Arts et M\u00e9tiers",
@@ -1983,9 +626,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "10"
+        "places": "10",
+        "language": "English&nbsp;(B2) / French&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universite De Bretagne Occidentale",
@@ -1995,13 +640,16 @@
     "fields": [
       {
         "name": "Engineering and engineering trades not elsewhere classified",
-        "places": "2"
+        "places": "2",
+        "language": "French&nbsp;(B1) / English&nbsp;(B1)"
       },
       {
         "name": "Management and administration",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Sorbonne Universite",
@@ -2011,17 +659,21 @@
     "fields": [
       {
         "name": "Biological and related sciences",
-        "places": "1"
+        "places": "1",
+        "language": "French&nbsp;(B2) / English&nbsp;(B2)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "French&nbsp;(B2) / English&nbsp;(B2)"
       },
       {
         "name": "Chemistry",
-        "places": "1"
+        "places": "1",
+        "language": "French&nbsp;(B2) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universita Degli Studi Di Trento",
@@ -2031,9 +683,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "4"
+        "places": "4",
+        "language": "English&nbsp;(B1) / Italian&nbsp;(A2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universiteit Twente",
@@ -2043,13 +697,16 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://utwente.becdn.net/.wh/ea/uc/i517b9b24010204424e0095469702589d81285f3fb5660701c3dc05000085/universiteit-twente-letters.avif"
   },
   {
     "name": "Universiteit Twente",
@@ -2059,25 +716,30 @@
     "fields": [
       {
         "name": "Medical diagnostic and treatment technology",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       },
       {
         "name": "Physical sciences",
-        "places": "4"
+        "places": "4",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://utwente.becdn.net/.wh/ea/uc/i517b9b24010204424e0095469702589d81285f3fb5660701c3dc05000085/universiteit-twente-letters.avif"
   },
   {
     "name": "Universiteit Twente",
     "country": "Netherlands",
     "city": "Enschede",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Universiteit%20Twente%20Enschede%20official%20website",
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "1"
+        "places": "1",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Technische Universiteit Eindhoven",
@@ -2087,9 +749,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(C1)"
       }
-    ]
+    ],
+    "image": "https://assets.w3.tue.nl/w/fileadmin/_processed_/d/e/csm_Link%20preview_6f1dedbe72.png"
   },
   {
     "name": "Lappeenrannan-Lahden Teknillinen Yliopisto Lut",
@@ -2099,9 +763,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://www.lut.fi/sites/default/files/styles/social_media_share/public/2025-06/LUT-Strategy-lut-fi-header-3840x2160px-2_3.jpg?h=2bd232e5&amp;itok=VqCZuQPy"
   },
   {
     "name": "Universita Degli Studi Di Torino",
@@ -2111,17 +777,21 @@
     "fields": [
       {
         "name": "Physical sciences",
-        "places": "1"
+        "places": "1",
+        "language": "English&nbsp;(B1) / Italian&nbsp;(B1)"
       },
       {
         "name": "Physical sciences",
-        "places": "1"
+        "places": "1",
+        "language": "English&nbsp;(B1) / Italian&nbsp;(B1)"
       },
       {
         "name": "Physical sciences",
-        "places": "1"
+        "places": "1",
+        "language": "English&nbsp;(B1) / Italian&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "University Meditereanean",
@@ -2131,9 +801,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "5"
+        "places": "5",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "University Haxhi Zeka",
@@ -2143,9 +815,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "5"
+        "places": "5",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://unhz.eu/wp-content/uploads/2024/11/haxilogo-150x150.jpg"
   },
   {
     "name": "Nazarbaev University",
@@ -2155,9 +829,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "5"
+        "places": "5",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Stichting Avans",
@@ -2167,13 +843,16 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       },
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Ted Universitesi",
@@ -2183,25 +862,30 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "8"
+        "places": "8",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://www.tedu.edu.tr/themes/custom/tedu/logo.svg"
   },
   {
     "name": "Universidad De Vigo",
     "country": "Spain",
     "city": "Vigo Pontevedra",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Universidad%20De%20Vigo%20Vigo%20Pontevedra%20official%20website",
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / Spanish&nbsp;(B1)"
       },
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / Spanish&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Jigme Namgyel Engineering College, Royal University of Bhutan",
@@ -2211,9 +895,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "5"
+        "places": "5",
+        "language": "English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Icam Institut Catholique D'Arts Et Metiers",
@@ -2223,9 +909,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "10"
+        "places": "10",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://www.icam.fr/wp-content/uploads/2025/12/ecole-ingenieur-generaliste.png"
   },
   {
     "name": "Universitat Politecnica de Catalunya",
@@ -2235,9 +923,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "Spanish&nbsp;(B1) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universitat Politecnica de Catalunya",
@@ -2247,49 +937,58 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "4"
+        "places": "4",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Stichting Hoger Beroepsonderwijs Haaglanden",
     "country": "Netherlands",
     "city": "The Hague",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Stichting%20Hoger%20Beroepsonderwijs%20Haaglanden%20The%20Hague%20official%20website",
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "8"
+        "places": "8",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Instituto Politecnico De Castelo Branco",
     "country": "Portugal",
     "city": "Castelo Branco",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Instituto%20Politecnico%20De%20Castelo%20Branco%20Castelo%20Branco%20official%20website",
     "fields": [
       {
         "name": "Fashion, interior and industrial design",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / Portuguese&nbsp;(B1)"
       },
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / Portuguese&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Institut National Des Sciences Appliquees Centre Val De Loire",
     "country": "France",
     "city": "Blois",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Institut%20National%20Des%20Sciences%20Appliquees%20Centre%20Val%20De%20Loire%20Blois%20official%20website",
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B1) / French&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universitat de Girona",
@@ -2299,13 +998,16 @@
     "fields": [
       {
         "name": "Business and administration",
-        "places": "3"
+        "places": "3",
+        "language": "Spanish&nbsp;(B1) / English&nbsp;(B1)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "Spanish&nbsp;(B1) / English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Metropolia Ammattikorkeakoulu Oy",
@@ -2315,9 +1017,11 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "English&nbsp;(B2) / Finnish"
       }
-    ]
+    ],
+    "image": "https://www.metropolia.fi/themes/custom/metropolia/images/meta.png"
   },
   {
     "name": "Universidad del Pais Vasco/ Euskal Herriko Unibertsitatea",
@@ -2327,21 +1031,25 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "6"
+        "places": "6",
+        "language": "English&nbsp;(B2) / Spanish&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Technicka Univerzita V Kosiciach",
     "country": "Slovakia",
     "city": "Ko\u0161ice",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Technicka%20Univerzita%20V%20Kosiciach%20Ko%C5%A1ice%20official%20website",
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "6"
+        "places": "6",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Bauhaus-Universit\u00e4t Weimar",
@@ -2351,9 +1059,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs) not elsewhere classified",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universitat Politecnica de Valencia",
@@ -2363,49 +1073,58 @@
     "fields": [
       {
         "name": "Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction",
-        "places": "2"
+        "places": "2",
+        "language": "Spanish&nbsp;(B1)"
       },
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "Spanish&nbsp;(B1) / English&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universite Lyon 1 Claude Bernard",
     "country": "France",
     "city": "Lyon",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Universite%20Lyon%201%20Claude%20Bernard%20Lyon%20official%20website",
     "fields": [
       {
         "name": "Environmental protection technology",
-        "places": "3"
+        "places": "3",
+        "language": "French&nbsp;(B2) / English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "D\u00fczce University",
     "country": "Turkey",
     "city": "D\u00fczce",
-    "url": "#",
+    "url": "https://www.google.com/search?q=D%C3%BCzce%20University%20D%C3%BCzce%20official%20website",
     "fields": [
       {
         "name": "Fashion, interior and industrial design",
-        "places": "5"
+        "places": "5",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Nantes Universite",
     "country": "France",
     "city": "Nantes",
-    "url": "#",
+    "url": "https://www.google.com/search?q=Nantes%20Universite%20Nantes%20official%20website",
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "10"
+        "places": "10",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": null
   },
   {
     "name": "Universitetet i Tromsoe - Norges Arktiske Universitet",
@@ -2415,9 +1134,11 @@
     "fields": [
       {
         "name": "Information and Communication Technologies (ICTs)",
-        "places": "3"
+        "places": "3",
+        "language": "English&nbsp;(B2)"
       }
-    ]
+    ],
+    "image": "https://uit.no/Content/760645/cache=20222601171757/transformation=scale10000x1500/DogsleddingIMG_9532.jpg"
   },
   {
     "name": "Universita Degli Studi Della Campania Luigi Vanvitelli",
@@ -2427,8 +1148,10 @@
     "fields": [
       {
         "name": "Engineering and engineering trades",
-        "places": "2"
+        "places": "2",
+        "language": "Italian&nbsp;(B1)"
       }
-    ]
+    ],
+    "image": null
   }
 ]
