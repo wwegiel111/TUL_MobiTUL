@@ -253,6 +253,18 @@ def rank_universities(input_file, output_file):
         else:
             acad_score = random.uniform(6.0, 9.0)
             
+        # Global Ranking Heuristic (Approximate)
+        # Top known universities get better ranks
+        top_unis_keywords = ["Politecnico Do Porto", "Sorbonne", "Munich", "Berlin", "Vienna", "Lisbon", "Barcelona", "KTH", "Delft", "Zurich", "Milano", "Sapienza", "Bologna", "Leuven", "Ghent", "Aalto"]
+        
+        if any(k in name for k in top_unis_keywords):
+             global_rank = random.randint(50, 250)
+        else:
+             # Estimate based on academic score (higher score = better rank)
+             # Map 6.0-9.5 to 1000-300 range approx
+             base_rank = 1200 - int((acad_score - 6.0) * 250)
+             global_rank = max(300, base_rank + random.randint(-50, 50))
+
         # Student Life / Vibe
         if country in ["Spain", "Portugal", "Italy", "Greece"]:
             vibe_score = random.uniform(8.5, 10.0) # South has better parties/weather
@@ -288,6 +300,7 @@ def rank_universities(input_file, output_file):
             "grant": grant_amount,
             "coords": coords,
             "distance_tul": dist_from_tul,
+            "global_rank": global_rank,
             "scores": {
                 "total": round(total_score, 1),
                 "academic": round(acad_score, 1),

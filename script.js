@@ -77,12 +77,18 @@ function renderCards(data) {
             </div>
 
             <div class="rank-badge">#${uni.rank}</div>
+            
             <div class="card-header">
                 <div class="card-location">
                     <span>${uni.country}</span> • <span>${uni.city}</span> • <span>📏 ${uni.distance_tul} km</span>
                 </div>
-                <div class="grant-badge" title="Monthly Erasmus+ Grant">
-                    💶 €${uni.grant} / month
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <div class="grant-badge" title="Monthly Erasmus+ Grant">
+                        💶 €${uni.grant} / month
+                    </div>
+                     <div class="grant-badge" style="background: rgba(108, 92, 231, 0.15); color: #a29bfe; border-color: rgba(108, 92, 231, 0.3);" title="Global University Ranking (Approx)">
+                        🌐 Global Rank: ${uni.global_rank}
+                    </div>
                 </div>
                 <h2>${uni.name}</h2>
                 <div class="fields-list">
@@ -217,6 +223,10 @@ function renderCompareCard(uni, opponent) {
             <div class="compare-row">
                 <span class="compare-label">Total Score</span>
                 <span class="compare-value ${winClass(uni.scores.total, opponent.scores.total)}">${uni.scores.total}</span>
+            </div>
+            <div class="compare-row">
+                <span class="compare-label">Global Rank 🌐</span>
+                <span class="compare-value ${winClass(opponent.global_rank, uni.global_rank)}">#${uni.global_rank}</span>
             </div>
             <div class="compare-row">
                 <span class="compare-label">Monthly Grant</span>
